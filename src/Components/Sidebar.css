@@ -1,0 +1,15 @@
+.sidebar {
+  flex: 0.18;
+  min-width: 200px;
+}
+
+.sidebar__top {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.sidebar__bottom {
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+}

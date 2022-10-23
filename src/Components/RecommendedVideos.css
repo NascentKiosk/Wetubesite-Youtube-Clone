@@ -1,0 +1,27 @@
+.recommendedvideos {
+  flex: 0.82;
+  padding: 15px;
+  margin: 0 10px;
+  background-color: rgb(245, 245, 245);
+  height: 660px;
+  overflow-y: scroll;
+}
+
+.recommendedvideos > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.recommendedvideos__videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.recommendedvideos__videos:hover,
+.recommendedvideos__videos.selected {
+  background-color: rgb(240, 237, 237);
+  cursor: pointer;
+}

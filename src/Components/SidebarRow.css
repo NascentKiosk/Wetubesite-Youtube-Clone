@@ -1,0 +1,33 @@
+.sidebarrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 24px;
+  height: 40px;
+}
+
+.sidebarrow .MuiSvgIcon-root {
+  margin-right: 25px;
+  color: rgb(100, 100, 100);
+  padding-left: 10px;
+}
+
+.sidebarrow p {
+  font-weight: 400;
+}
+
+.sidebarrow:hover,
+.sidebarrow.selected {
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+
+.sidebarrow:hover > .MuiSvgIcon-root,
+.sidebarrow.selected > .MuiSvgIcon-root {
+  color: red;
+}
+
+.sidebarrow:hover > p,
+.sidebarrow.selected > p {
+  font-weight: bold;
+}

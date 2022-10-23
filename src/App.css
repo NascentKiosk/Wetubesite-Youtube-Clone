@@ -1,0 +1,18 @@
+.app__page {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .app__page {
+    width: 100% !important;
+  }
+
+  .recommendedvideos,
+  .searchPage {
+    flex: 1 !important;
+  }
+}

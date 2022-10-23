@@ -1,0 +1,42 @@
+
+
+.FilterBar{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+    padding-right: 40px;
+    font-weight: 400;
+    overflow-x: scroll;
+}
+
+
+.FilterBar ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.FilterBar li{
+    font-size: 13px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    background-color: rgb(243, 241, 241);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.FilterBar ul .main{
+    color: white;
+    background-color: rgb(43, 41, 41);
+    font-weight: 500;
+    cursor: pointer;
+    border: 10%;
+}
+
+
+.FilterBar li:hover{
+    background-color: rgb(216, 215, 215);
+    font-weight: 500;
+    cursor: pointer;
+}

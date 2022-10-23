@@ -1,0 +1,83 @@
+.header,
+.header__left,
+.header__middle,
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 5px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.header {
+  height: 56px;
+}
+
+.header__left {
+  flex: 2;
+  justify-content: space-evenly;
+  max-width: 190px;
+}
+
+.header__logo {
+  height: 10px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.header__middle {
+  flex: 6;
+  height: 40px;
+  justify-content: space-evenly;
+  max-width: 750px;
+}
+
+.header__middle > input {
+  height: 33px;
+  padding: 0px 15px;
+  flex: 1;
+  border: 1px solid rgb(200, 200, 200);
+  outline: none;
+}
+
+.header__middle > input:focus {
+  border-color: blue;
+}
+
+.header__middleSearch {
+  width: 65px !important;
+  height: 33px !important;
+  color: gray !important;
+  background-color: rgb(240, 240, 240) !important;
+  border: 1px solid rgb(200, 200, 200);
+  border-left: none;
+  margin-top: 4px;
+}
+
+.header__middleSearch:hover {
+  color: black !important;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header__middleMic {
+  color: rgb(102, 102, 102) !important;
+  margin: 0px 15px;
+}
+
+.header__right {
+  flex: 2;
+  max-width: 230px;
+  height: 40px;
+  justify-content: space-evenly;
+}
+
+.header__right .MuiSvgIcon-root {
+  color: gray !important;
+}
